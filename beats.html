@@ -26,8 +26,7 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Scroll to top</a></li>
                         </ul>
                     </div>
                 </div>
@@ -39,17 +38,20 @@
                         <div class="col-xxl-5">
                             <!-- Header text content-->
                             <div class="text-center text-xxl-start">
-                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Recording &middot; Mixing &middot; Producing</div></div>
-                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Hillside Beats</span></h1>
+                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Beats &middot; Recording &middot; Mixing &middot; Mastering &middot; Producing</div></div>
+                                <div class="button-container">
+                                    <a href="#about" class="scroll-btn">About</a>
+                                    <a href="#projects" class="scroll-btn">Projects</a>
+                                    <a href="#contact" class="scroll-btn">Contact</a>
+                                </div>
+                                <!--<h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Hillside Beats</span></h1>-->
                             </div>
                         </div>
                         <div class="col-xxl-7">
                             <!-- Header profile picture-->
                             <div class="d-flex justify-content-center mt-5 mt-xxl-0">
                                 <div class="image-container">
-                                    <img src="assets/Hillside_Tape_1_Cover.png" alt="Hillside Tape Vol.1 Cover" class="image-fluid">
-                                    <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-                                    <!-- Watch a tutorial on how to do this on YouTube (link)-->
+                                    <img src="assets/Hillside_Beats_Logo_RGB_2.png" alt="Hillside Beats" class="image-fluid">
                                 </div>
                             </div>
                         </div>
@@ -57,6 +59,12 @@
                 </div>
             </header>
             <!-- Projects Section-->
+            <section id="about" class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xxl-8">
+                            <h1>About Us</h1></div>
+            </section>
             <section id="projects">
             <section class="bg-light py-5">
             <section id="projects">                
@@ -65,8 +73,25 @@
                         <div class="col-xxl-8">
                             <div class="text-center my-5">
                                 <h1 class="display-2 fw-bolder"><span class="text-gradient d-inline">Projects</span></h1>
-                                <h3 class="display-5 fw-bolder"><span class="text-gradient d-inline">Hillside Tape Vol. 1</span></h3>
-                                <iframe style="border: 0; width: 350px; height: 654px;" src="https://bandcamp.com/EmbeddedPlayer/album=1379419912/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://hillsidebeats.bandcamp.com/album/hillside-tape-vol-1">Hillside Tape Vol. 1 by Hillside Beats</a></iframe>
+                                <!--<h3 class="display-5 fw-bolder"><span class="text-gradient d-inline">Hillside Tape Vol. 1</span></h3>
+                                <iframe style="border: 0; width: 350px; height: 654px;" src="https://bandcamp.com/EmbeddedPlayer/album=1379419912/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://hillsidebeats.bandcamp.com/album/hillside-tape-vol-1">Hillside Tape Vol. 1 by Hillside Beats</a></iframe>-->
+                                <div class="projects">
+                                    <div class="project">
+                                      <input type="radio" name="accordion" id="proj1" checked>
+                                      <label for="proj1" class="project-title">projekt1</label>
+                                      <div class="project-content">
+                                        <p>Hier könnte ihre Werbung stehen</p>
+                                      </div>
+                                    </div>
+
+                                    <div class="project">
+                                      <input type="radio" name="accordion" id="proj2">
+                                      <label for="proj2" class="project-title">Überschrift 2</label>
+                                      <div class="project-content">
+                                        <p>Überschriften machen gar net so viel Sinn, wenn dann alles nochmal hier unten steht</p>
+                                      </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
