@@ -63,7 +63,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #2d845e;
+  --bs-body-bg: #1e1e1e;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -103,6 +103,20 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body-beats {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 }
 
 hr {
@@ -11802,7 +11816,7 @@ html {
 }
 
 .scroll-btn {
-  background: #0077cc;
+  background: #364fed;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
@@ -11819,4 +11833,5 @@ section {
   padding: 100px 20px;
   margin-top: 120px; /* space for fixed header */
   min-height: 100vh;
+  background-color: #191d37;
 }
