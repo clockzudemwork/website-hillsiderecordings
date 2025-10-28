@@ -1,1 +1,26 @@
 /* DEPLOY CUSTOM CSS CHANGES HERE */
+
+.about-bg {
+	background-image: url('../assets/maxens.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: min-height;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.about-image,
+.about-content {
+	background-color: rgba(255, 255, 255, 0.7);
+  	padding: 20px;
+  	border-radius: 10px;
+  	margin: 20px;
+  	position: relative;
+  	z-index: 2;
+}
+
+.about-boxes {
+	margin: 0 20px 20px 20px;
+}
