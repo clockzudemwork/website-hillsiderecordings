@@ -11768,10 +11768,3 @@ html {
 .scroll-btn:hover {
   background: #005fa3;
 }
-
-section {
-  padding: 100px 20px;
-  margin-top: 120px; /* space for fixed header */
-  min-height: 100vh;
-  background-color: #191d37;
-}

@@ -1,5 +1,11 @@
 /* DEPLOY CUSTOM CSS CHANGES HERE */
 
+section {
+  padding: 120px;
+  min-height: 100vh;
+  background-color: #191d37;
+}
+
 .about-bg {
 	background-image: url('../assets/maxens.jpg');
 	background-size: cover;
