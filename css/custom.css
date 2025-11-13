@@ -6,6 +6,11 @@ section {
   background-color: #191d37;
 }
 
+.image-container {
+  margin: -20vh;
+  margin-top: -50vh;
+}
+
 .about-bg {
 	background-image: url('../assets/maxens.jpg');
 	background-size: cover;
