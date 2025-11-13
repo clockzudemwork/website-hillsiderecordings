@@ -3,7 +3,9 @@
 section {
   padding: 120px;
   min-height: 100vh;
-  background-color: #191d37;
+  /*background-color: #191d37;*/
+  /*background-color: hsl(231, 83%, 10%);*/
+  background-color: color-mix(in srgb, #364fed 10%, #1e1e1e 90%);
 }
 
 .image-container {
@@ -82,14 +84,21 @@ section {
   display: block;
   cursor: pointer;
   padding: 1.2rem 1.5rem;
+  color: #fff;
   font-weight: 600;
-  background: #eaeaea;
+  /*background: #eaeaea;*/
+  background-color: color-mix(in srgb, #364fed 10%, #1e1e1e 90%);
+  border: 2px solid;
+  border-color: #fff;
+  border-radius: 10px;
   transition: background 0.3s ease;
   font-size: 24px;
 }
 
 .project-title:hover {
-  background: #dcdcdc;
+  /*background: #dcdcdc;*/
+  border-color: #354fed;
+  color: #364fed;
 }
 
 /* project content hidden by default */
