@@ -6,6 +6,15 @@
   --hillside-primary: #2d845e;
 }
 
+.badge-index {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.5em 1em;
+  color: #fff;
+}
+
 section {
   padding: 120px;
   min-height: 100vh;
