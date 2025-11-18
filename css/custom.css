@@ -1,11 +1,15 @@
 /* DEPLOY CUSTOM CSS CHANGES HERE */
 
+:root {
+  --beats-primary: #364fed;
+  --dirt-primary: #ea5b1b;
+  --hillside-primary: #2d845e;
+}
+
 section {
   padding: 120px;
   min-height: 100vh;
-  /*background-color: #191d37;*/
-  /*background-color: hsl(231, 83%, 10%);*/
-  background-color: color-mix(in srgb, #364fed 10%, #1e1e1e 90%);
+  background-color: color-mix(in srgb, var(--beats-primary) 10%, #1e1e1e 90%);
 }
 
 .image-container {
@@ -22,9 +26,9 @@ section {
 }
 
 .scroll-btn:hover {
-  color: #364fed;
+  color: var(--beats-primary);
   background-color: #1e1e1e;
-  border-color: #364fed;
+  border-color: var(--beats-primary);
   border-radius: 10px;
   transform: translateY(-2px);
 }
@@ -91,20 +95,12 @@ section {
   color: #fff;
   font-weight: 600;
   background: #1e1e1e;
-  /*background-color: color-mix(in srgb, #364fed 10%, #1e1e1e 90%);*/
   border: 2px solid;
   border-color: #fff;
   border-radius: 10px;
   transition: background 0.3s ease;
   font-size: 24px;
 }
-
-/*.project-title:hover {
-  background: #fff;
-  border-color: #1e1e1e;
-  color: #1e1e1e;
-}
-*/
 
 .project input:not(:checked) + .project-title:hover {
   background: #fff;
@@ -120,7 +116,6 @@ section {
   transition: all 0.4s ease;
   padding: 0 1.5rem;
   text-align: left;
-  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .project-content iframe {
@@ -151,5 +146,5 @@ section {
 }
 
 .social-icon:hover {
-  color: #364fed;
+  color: var(--beats-primary);
 }
