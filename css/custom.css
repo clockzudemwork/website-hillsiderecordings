@@ -156,3 +156,12 @@ section {
 .social-icon:hover {
   color: var(--beats-primary);
 }
+
+.social-icon-ft {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-icon-ft:hover {
+  color: var(--beats-primary);
+}
