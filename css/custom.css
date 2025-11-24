@@ -42,7 +42,7 @@ section {
   transform: translateY(-2px);
 }
 
-.about-bg {
+.about-bg-beats {
 	background-image: url('../assets/maxens.jpg');
 	background-size: cover;
 	background-position: center;
@@ -51,6 +51,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+  border-radius: 10px;
 }
 
 .about-image,
