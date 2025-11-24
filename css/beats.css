@@ -3,6 +3,10 @@
   	--hillside-primary: #2d845e;
 }
 
+.scroll-top:hover {
+	color: var(--beats-primary);
+}
+
 section {
 	background-color: color-mix(in srgb, var(--beats-primary) 10%, #1e1e1e 90%);
 }

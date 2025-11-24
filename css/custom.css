@@ -1,9 +1,10 @@
 /* DEPLOY CUSTOM CSS CHANGES HERE */
 
-:root {
-  --beats-primary: #364fed;
-  --dirt-primary: #ea5b1b;
-  --hillside-primary: #2d845e;
+.scroll-top {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.2s ease;
+  font-size: 16px;
 }
 
 .badge-index {
