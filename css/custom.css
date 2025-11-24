@@ -18,7 +18,6 @@
 section {
   padding-bottom: 60px;
   padding-top: 100px;
-  background-color: color-mix(in srgb, var(--beats-primary) 10%, #1e1e1e 90%);
 }
 
 .image-container {
@@ -35,15 +34,12 @@ section {
 }
 
 .scroll-btn:hover {
-  color: var(--beats-primary);
   background-color: #1e1e1e;
-  border-color: var(--beats-primary);
   border-radius: 10px;
   transform: translateY(-2px);
 }
 
-.about-bg-beats {
-	background-image: url('../assets/maxens.jpg');
+.about-bg {
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -77,10 +73,6 @@ section {
 .pricing-card h2, h3, p {
   padding-top: 0.2em;
   padding-bottom: 0.2em;
-}
-
-.pricing-card h2, h3 {
-  color: var(--beats-primary);
 }
 
 .pricing-card p {
@@ -178,16 +170,8 @@ section {
   transition: color 0.3s ease;
 }
 
-.social-icon:hover {
-  color: var(--beats-primary);
-}
-
 .social-icon-ft {
   color: #fff;
   transition: color 0.3s ease;
   padding: 0.3em;
-}
-
-.social-icon-ft:hover {
-  color: var(--beats-primary);
 }

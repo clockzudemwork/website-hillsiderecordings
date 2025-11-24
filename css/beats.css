@@ -1,0 +1,33 @@
+:root {
+	--beats-primary: #364fed;
+  	--hillside-primary: #2d845e;
+}
+
+section {
+	background-color: color-mix(in srgb, var(--beats-primary) 10%, #1e1e1e 90%);
+}
+
+.scroll-btn:hover {
+	color: var(--beats-primary);
+	border-color: var(--beats-primary);
+}
+
+.badge {
+	background-color: var(--beats-primary);
+}
+
+.about-bg {
+	background-image: url('../assets/maxens.JPG');
+}
+
+.pricing-card h2, h3{
+	color: var(--beats-primary);
+}
+
+.social-icon:hover {
+	color: var(--beats-primary);
+}
+
+.social-icon-ft:hover {
+	color: var(--beats-primary);
+}
