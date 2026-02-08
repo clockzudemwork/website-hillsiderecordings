@@ -11755,6 +11755,7 @@ html {
   gap: 1rem;
 }
 
+.contact-btn,
 .scroll-btn {
   background: #364fed;
   color: white;
@@ -11765,6 +11766,7 @@ html {
   transition: background 0.3s;
 }
 
+.contact-btn:hover,
 .scroll-btn:hover {
   background: #005fa3;
 }
