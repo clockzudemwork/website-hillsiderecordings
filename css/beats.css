@@ -16,6 +16,17 @@ section {
 	border-color: var(--beats-primary);
 }
 
+.contact-btn {
+	background-color: var(--beats-primary);
+	color: #111;
+}
+
+.contact-btn:hover  {
+	background: #111;
+	color: var(--beats-primary);
+	border-color: var(--beats-primary);
+}
+
 .badge {
 	background-color: var(--beats-primary);
 }
